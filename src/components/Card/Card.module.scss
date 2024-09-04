@@ -1,0 +1,51 @@
+.Card {
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: width 0.15s ease, height 0.15s ease, padding 0.15s ease, margin 0.15s ease;
+  background-color: lightblue;
+  // width: 32rem;
+   height: 40rem;
+  margin: 1rem 1rem 1rem 1rem;
+
+  &:hover,
+  &:focus,
+  &:active {
+    // color: #f300cb;
+    // border-color: #0070f3;
+    // width: 34rem;
+    // height: 55rem;
+    // padding: 2rem;
+     margin: 0 0 0 0;
+    
+    h2{
+      margin: 0 0 1rem 0;
+      font-size: 1.6rem;
+      transition: font-size 0.15s ease;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1.07rem;
+      line-height: 1.5;
+      transition: font-size 0.15s ease;
+    }
+
+  }
+
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+
